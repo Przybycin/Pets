@@ -70,12 +70,12 @@ class Animal:
     def toString(self):
         return "{} is a {} {}. He is {}cm tall, weighs {}kg and says {}." \
                " He has a cuteness rating of {} out of 10    ".format(self.__name,
-                                                                     self.__colour,
-                                                                       self.__species,
-                                                                       self.__height,
-                                                                    self.__weight,
-                                                                 self.__sound,
-                                                                 self.__cuteness)
+                                                                      self.__colour,
+                                                                      self.__species,
+                                                                      self.__height,
+                                                                      self.__weight,
+                                                                      self.__sound,
+                                                                      self.__cuteness)
 
 cat = Animal('Mr.Meows', 'cat', 20, 11, 'black', 'meow', 7)
 
