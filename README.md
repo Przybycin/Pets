@@ -14,13 +14,13 @@ class Animal:
 
 
     def __init__(self, name, species, height, weight, colour, sound, cuteness):
-        self.__name = name
-        self.__species = species
-        self.__height = height
-        self.__weight = weight
-        self.__colour = colour
-        self.__sound = sound
-        self.__cuteness = cuteness
+                                                                                self.__name = name
+                                                                                self.__species = species
+                                                                                self.__height = height
+                                                                                self.__weight = weight
+                                                                                self.__colour = colour
+                                                                                self.__sound = sound
+                                                                                self.__cuteness = cuteness
 
     def set_name(self, name):
         self.__name = name
